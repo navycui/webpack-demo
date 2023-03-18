@@ -13,3 +13,11 @@ use -> placeHolders
 [contentHash] : 문서의 확장자 추리
 [hash:<length>] : 캡쳐 hash 길이 디퍼트32
 [path] : file 상대 webpack 설정의 경로
+
+
+## 웹팩 플로그인 중요:
+예: CleanWebpackPlugin
+    npm i clean-webpack-plugin -D
+## htmlWebpackPlugin:
+예: HtmlWebpackPlugin
+    npm i html-webpack-plugin -D

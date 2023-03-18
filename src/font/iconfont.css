@@ -1,0 +1,24 @@
+@font-face {
+    font-family: "iconfont";
+    src: url('AlimamaShuHeiTi-Bold.woff2?t=1611048831079');
+    src: url('AlimamaShuHeiTi-Bold.woff2?t=1611048831079') format('woff2'),
+    /* url('iconfont.woff2?t=1611048831079') format('woff2'),
+    url('iconfont.woff2?t=1611048831079') format('woff2'),
+    url('iconfont.woff2?t=1611048831079') format('woff2') */
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smmthing: grayscale;
+}
+
+.icon-ashbin:before {
+    font-size: 30px;
+    content: "\e665";
+}
+.icon-caps-lock:before {
+    content: "\e667"
+}
