@@ -8,7 +8,7 @@ import pnggggg from "../img/pngwing.com.png";
 
 const divEl = document.createElement("div")
 divEl.className = "title";
-divEl.innerHTML = "hello dsworfsdfld";
+divEl.innerHTML = "hello dsworfsfdasdsdfdfld";
 
 // 배경사진 설정
 const bgDivEl = document.createElement('div');

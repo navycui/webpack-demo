@@ -14,6 +14,28 @@ module.exports = {
     devServer: {
         static: "./public",
         hot: true, // 모듈 re qie huan
+        // host: 0.0.0.0, 호스트 설정
+        // open: true, // 브라우저 자동 실해
+        // port: 8808, // 포트 설정
+        // compress: true // gzip 배포 파일 압축 처리
+        // proxy: {
+        //     "/api": {
+        //         target: "http://lcoalhost:8888",
+        //         pathRewrite: {
+        //             "^api": ""
+        //         },
+        //         secure: false,
+        //         changeOrigin: true
+
+        //     }
+        // }
+        resolve: {
+            extensions: [".js",".json",".vue",".ts",".tsx"],
+            alias: {
+                "@": path.resolve(__dirname,"./src/js"),
+                "js": path.resolve(__dirname,"./src/js")
+            }
+        }
     },
     output: {
         path: path.resolve(__dirname,"./build"),
